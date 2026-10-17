@@ -1,0 +1,19 @@
+Thumbs.db
+.DS_Store
+desktop.ini
+*.tmp
+~$*
+
+# Локальная сборка документов и выкладки из приватного репозитория, в витрину не идёт
+/scripts/
+
+# Рабочие файлы Solo Dev Hub и входящие от контрагентов — в выкладку не идут
+/docs/todo.md
+/docs/done.md
+/docs/bug-reports.md
+/docs/project.md
+/docs/InOutBox/
+/docs/sdh_skills/
+/CLAUDE.md
+.env
+.claude/
