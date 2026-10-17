@@ -1,5 +1,11 @@
 # What's new
 
+## 0.24.0 — 17.10.2026
+
+- **What's new and Planned right in Help.** After an update the app shows once what has changed.
+- **Full dialog names.** Names are no longer cut at 40 characters. A few seconds after the reply the server gives the dialog a short meaningful name; hover over a history row to see the full name.
+- **Coins stand out.** An amber coin icon next to the balance, and coins are the last column in dialog properties.
+
 ## 0.23.0 — 17.10.2026
 
 - **The model checks a module itself.** It runs the configurator's standard module check, reads the Messages panel and fixes the error it found. It reports success only when the platform explicitly confirms there are no errors.
