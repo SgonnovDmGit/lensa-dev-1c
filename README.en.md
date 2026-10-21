@@ -12,6 +12,8 @@ copy-pasting through a chat, but by itself, in your Configurator.
 
 [Русская версия](README.md)
 
+![LenSa Dev 1C: the AI reads catalog attributes, opens the object module and runs the module check](docs/screens/chat-check.png)
+
 ## What it does
 
 - **Reads and edits code in the open module.** A module of thousands of lines is read by procedures
@@ -25,6 +27,20 @@ copy-pasting through a chat, but by itself, in your Configurator.
 - **Task board.** The model plans work on the board, you edit the plan by hand, and it survives a
   restart.
 - **You see what the work costs.** Metrics of every turn and dialog spending per model.
+
+## What it looks like
+
+**Sandbox with a code editor.** 1C highlighting, region folding, finished code moves to the Configurator window.
+
+![Sandbox with a code editor](docs/screens/sandbox.png)
+
+**Settings in one window.** Access key, status and balance, useful links, code change markers.
+
+![Settings window](docs/screens/settings.png)
+
+**Themes.** Dark, light and 1C colors.
+
+![1C theme](docs/screens/theme-1c.png)
 
 ## Requirements
 
