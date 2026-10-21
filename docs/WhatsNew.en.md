@@ -1,5 +1,13 @@
 # What's new
 
+## 0.26.0 — 21.10.2026
+
+- **New colors and distinct surfaces.** Light and dark themes use a raspberry accent; the board, feed and composer are separated. The input has a focus border, and Auto stays green.
+- **Settings in one window.** A masked key with temporary reveal, status and balance, connection check, useful links and the existing marker options.
+- **Feedback from the app.** Send a review, report or feature request from Settings; a failed send keeps your draft.
+- **Quote a selected phrase.** Select text in a reply and click Quote. The caret moves into the composer, and the reply footer stays visible as the input grows.
+- **Themed confirmations.** Delete a task, change a key or add code to the sandbox. The info button matches its neighboring actions.
+
 ## 0.25.0 — 21.10.2026
 
 - **Properties of one attribute.** The app reads the name, synonym and comment from a catalog or document attribute's property palette. Attribute types are the next step.

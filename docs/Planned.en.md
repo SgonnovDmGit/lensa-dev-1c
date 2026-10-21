@@ -3,7 +3,6 @@
 ## Next
 
 - **Attribute types in the object description** — string, number, reference, with length and precision.
-- **Clearer settings** — a more convenient layout, guidance on getting a key and useful links.
 
 ## Later
 
