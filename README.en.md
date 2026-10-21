@@ -39,7 +39,7 @@ copy-pasting through a chat, but by itself, in your Configurator.
 1. Download the ZIP from [Releases](../../releases/latest) and unpack it. Inside is a single
    `LenSaDev1C.exe` — nothing to install, the editor engine is included.
 2. Run `LenSaDev1C.exe` and enter your Lensa service access key. Keys are issued in your account at
-   [digitalmechanics.dev](https://digitalmechanics.dev).
+   [lensacode.ai/developer](https://lensacode.ai/developer?utm_source=github_developer&utm_medium=repo&utm_campaign=gh-developer-readme).
 3. Open the Configurator with your database — the app finds it by itself.
 
 Make a copy before the first run on a production database: the model can edit code.
@@ -58,3 +58,10 @@ source** — the rights to the product belong to the right holder. Terms — [LI
 ## Feedback
 
 Questions, bugs and wishes — in [Issues](../../issues).
+
+## Support development
+
+The app is free. If it saves you time, you can support development:
+
+- **Boosty** - [boosty.to/sgonnovdm/donate](https://boosty.to/sgonnovdm/donate) (RUB, cards, SBP)
+- **TON** - `UQA-0I3SN2vw8F2ZzEoOTXT36-ToF0mu4Yp4_6pVmsR_dI0S`

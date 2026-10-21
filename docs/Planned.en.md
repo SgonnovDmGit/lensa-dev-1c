@@ -3,9 +3,7 @@
 ## Next
 
 - **Attribute types in the object description** — string, number, reference, with length and precision.
-- **Forms and manager modules** — open and read them the same way as the object module.
-- **Find objects by part of the name** and work with more kinds of configuration objects.
-- **Add an attribute**, a tabular section or an object, then save and apply the configuration.
+- **Clearer settings** — a more convenient layout, guidance on getting a key and useful links.
 
 ## Later
 
