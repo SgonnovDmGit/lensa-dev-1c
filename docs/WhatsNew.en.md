@@ -1,5 +1,12 @@
 # What's new
 
+## 0.25.0 — 21.10.2026
+
+- **Properties of one attribute.** The app reads the name, synonym and comment from a catalog or document attribute's property palette. Attribute types are the next step.
+- **Fewer configurator transitions.** Opening an object module reuses the editor already open for the requested object.
+- **Read messages are cleared.** After a complete panel read or a confirmed successful check, old messages no longer accumulate. The panel stays intact when an error is found.
+- **Window captions follow the theme.** Help, Settings and other dialogs remain readable in dark, light and 1C themes, including when inactive.
+
 ## 0.24.0 — 17.10.2026
 
 - **What's new and Planned right in Help.** After an update the app shows once what has changed.
