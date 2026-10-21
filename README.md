@@ -39,7 +39,7 @@
 1. Скачайте ZIP из [Releases](../../releases/latest) и распакуйте. Внутри один файл `LenSaDev1C.exe` —
    устанавливать ничего не нужно, движок редактора уже внутри.
 2. Запустите `LenSaDev1C.exe` и введите ключ доступа к сервису «Линза». Ключ выдается в личном
-   кабинете на [digitalmechanics.dev](https://digitalmechanics.dev).
+   кабинете на [lensacode.ai/developer](https://lensacode.ai/developer?utm_source=github_developer&utm_medium=repo&utm_campaign=gh-developer-readme).
 3. Откройте Конфигуратор с нужной базой — программа найдет его сама.
 
 Перед первой работой на рабочей базе сделайте копию: нейросеть умеет править код.
@@ -58,6 +58,13 @@
 ## Обратная связь
 
 Вопросы, ошибки и пожелания — в [Issues](../../issues).
+
+## Поддержать разработку
+
+Программа бесплатная. Если она экономит вам время, можно поддержать разработку:
+
+- **Boosty** - [boosty.to/sgonnovdm/donate](https://boosty.to/sgonnovdm/donate) (₽, карты, СБП)
+- **TON** - `UQA-0I3SN2vw8F2ZzEoOTXT36-ToF0mu4Yp4_6pVmsR_dI0S`
 
 ## Родственники
 
