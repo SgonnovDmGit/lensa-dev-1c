@@ -1,5 +1,19 @@
 # What's new
 
+## 0.28.0 — 23.10.2026
+
+- **Updated icon.** A lens, laptop and “1”, with a dark outline; the dark theme adds a raspberry separator above the keyboard.
+- **Change your key in Settings.** Validate, apply or cancel in the same window. A failed check keeps your previous key; its status and balance are labelled separately from the new key's check result.
+- **More room in Settings.** More spacing between fields, a readable comment preview, and the coin symbol after the amount.
+- **Plan, Review and Trust.** A page and pencil, magnifier and outlined handshake, in blue, purple and green. Review still prepares edits in the sandbox.
+- **Readable text.** Popup headings, links, errors and status text have better contrast. A narrow composer shortens the model name to keep Send visible.
+- **Updated Help.** A larger logo and full product name, with clearer Russian terminology in the user guide.
+
+## 0.27.0 — 22.10.2026
+
+- **An individual attribute's type from the 1C property palette.** String length, numeric precision, date, boolean and observed reference types. The name, synonym and comment remain available even when the type cannot be read.
+- **No guessing from names.** Composite, unknown and unreadable types are identified explicitly. Attribute lists still do not contain types.
+
 ## 0.26.0 — 21.10.2026
 
 - **New colors and distinct surfaces.** Light and dark themes use a raspberry accent; the board, feed and composer are separated. The input has a focus border, and Auto stays green.

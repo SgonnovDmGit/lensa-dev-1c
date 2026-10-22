@@ -2,7 +2,9 @@
 
 ## Next
 
-- **Attribute types in the object description** — string, number, reference, with length and precision.
+- **Dark theme contrast.** Readable menu text, popups and secondary labels.
+- **Usage history.** A table of requests and charges from your personal history.
+- **Small icon.** A clear mark in the tray and window title bar.
 
 ## Later
 
