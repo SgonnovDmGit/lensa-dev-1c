@@ -1,5 +1,28 @@
 # What's new
 
+## 0.31.0 — 25.10.2026
+
+- **Hourly usage history.** Settings show how many calls, tokens and coins each hour took — separately for every AI model. Times follow your computer's clock.
+- **A clear key limit refusal.** When a key has a spending ceiling and it is used up, the app says which limit ran out — daily, weekly or total — how much is left and when it renews. The coins in your account are untouched.
+- **Key limit instead of balance.** When the key may spend less than the account holds, the header shows the key's available remainder; the tooltip names both amounts.
+
+## 0.30.1 — 25.10.2026
+
+- **A larger header.** The logo, name, version and connection status are bigger and fit on one line; header buttons are larger and easier to hit.
+- **No stray icon in window titles.** Settings, Help and other windows no longer show a tiny icon in the title bar; the taskbar keeps it.
+- **The product logo in an empty dialog.** A new dialog opens with a large logo.
+- **The context ring is always visible.** The ring next to the composer stands out in every theme. In an empty dialog its tooltip shows the selected AI model's context size; when it is unknown, it says so instead of showing zero.
+- **A tidier configurator list.** Infobases are split into "Open" and "Recent". You can remove a recent infobase from the list or hide an open one; both ask for confirmation. Hidden infobases come back from a collapsed section. 1C itself, the infobase and its dialogs are not affected.
+- **An arrow on the Send button.** Send is an up arrow; in the 1C theme the button is raspberry, as in the light theme.
+- **A clean dialog history.** Internal server records no longer show up in the history as unreadable text.
+
+## 0.29.0 — 23.10.2026
+
+- **Open EPF names.** Refresh and chat tools identify open EPF modules and switch to the selected window.
+- **More reliable module edits.** After pasting, the client confirms the text landed in the right module. When 1C gives no sign whether an edit went through, the client says so and does not suggest pasting it again blindly.
+- **Check the open module.** The native 1C syntax check also works with external EPF modules, without restrictions based on the file name or module kind.
+- **Current procedure in chat.** The client reads the live module's caret after you return to the composer. When 1C does not expose an exact position, it is left unspecified.
+
 ## 0.28.0 — 23.10.2026
 
 - **Updated icon.** A lens, laptop and “1”, with a dark outline; the dark theme adds a raspberry separator above the keyboard.
