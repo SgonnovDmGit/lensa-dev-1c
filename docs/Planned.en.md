@@ -2,9 +2,9 @@
 
 ## Next
 
-- **Dark theme contrast.** Readable menu text, popups and secondary labels.
-- **Usage history.** A table of requests and charges from your personal history.
-- **Small icon.** A clear mark in the tray and window title bar.
+- **Working in an extension.** Create an extension, adopt an object into it, open and read its module in that extension, and save.
+- **Cache in the usage history.** Cache read and write tokens for every hour and model — so you can see what the price is made of.
+- **Extensions without surprises.** Same-named objects in the configuration and an extension, someone else's or a disabled extension, cancelling and conflicts when adopting.
 
 ## Later
 
@@ -15,7 +15,7 @@
 - **What the Query Console and 1C Assistant can do.** Metadata of the live infobase, queries, data, the event log, DCS, building external reports and data processors. A query from a module goes to the Query Console, and the result comes back to the dialog.
 - **A sandbox close to the configurator.** Autocompletion, the syntax assistant, code templates, formatting, query language and DCS modes.
 - **Everything the server can do.** Web search, search in 1C help and development standards, files from the model and from you, common questions; during a turn you can see what the server is doing.
-- **Spending in view.** The cost of every answer, spending history and a reminder to top up while you only have free coins.
+- **Spending in view.** The cost of every answer and a reminder to top up while you only have free coins.
 - **The task board is a plan, not a list.** A task opens into its steps, a branch collapses, and the task status is derived from its steps.
 - **Answers appear as they are generated** — including when the model is working with tools.
 - **Subagents.** The model hands a step of the task to a subagent and continues with its result; you can see who is working on what and what it costs.
