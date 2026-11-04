@@ -1,5 +1,33 @@
 # What's new
 
+## 0.34.1 — 04.11.2026
+
+- **Maintenance release.** A new delivery of the accepted 0.34.0 improvements, without changing configurator behavior.
+
+## 0.34.0 — 04.11.2026
+
+- **Fewer unnecessary navigation steps.** Reading reuses the correct open module instead of always reopening the extension and finding the object from the root.
+- **Read without switching to the editor.** An available open module can be read without forcing it active.
+- **More precise source selection.** Improved reuse of known base-configuration and extension windows, including objects with matching names.
+- **Borrow from the open configuration.** No preliminary switch to the extension is required; source tabs in a shared pane are supported.
+- **No unnecessary short search limit.** Search reset is confirmed from the actual tree within the overall operation budget. An unconfirmed search is not reported as a missing object.
+
+## 0.33.0 — 29.10.2026
+
+- **Cache in the usage history.** The hourly history now shows cache-read and cache-write columns per model — see how caching shapes the cost. Values appear after the server update; until then the cells show a dash.
+- **Cleaner check cards.** A module check without a bound object no longer shows the technical “Module” subtitle — just the title and the check result.
+- **Readable dark theme.** Accent action buttons (Save, send) now use white letters on the rose fill.
+
+## 0.32.0 — 29.10.2026
+
+- **Working with an extension.** This workflow is currently manual in the dedicated “1C extensions” window; the AI does not yet manage extensions directly. The buttons let you create an extension, adopt an object, read its module, prepare a change, check it with the platform and explicitly save. The window shows which extension owns the code.
+- **A local draft.** Edit a module as text or in exported files. Your draft is saved separately; a conflict with live 1C code stops application and preserves your edits.
+- **Background actions in Designer 8.5.** Reading, sending code, platform checks and extension commands run without switching to the 1C window. An uncertain outcome is reported separately and is never retried automatically.
+- **Additional BSL checks.** An optional component checks code and coding standards in the sandbox and local module. Settings let you install it, inspect its state and remove it. Platform checks remain available separately.
+- **The actual open window.** The active module follows the current 1C state; an unknown name is explicitly marked in the window list.
+
+Extension commands for the AI will become available after the server update.
+
 ## 0.31.0 — 25.10.2026
 
 - **Hourly usage history.** Settings show how many calls, tokens and coins each hour took — separately for every AI model. Times follow your computer's clock.

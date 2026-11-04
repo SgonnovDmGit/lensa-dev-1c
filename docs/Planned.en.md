@@ -2,12 +2,18 @@
 
 ## Next
 
-- **Working in an extension.** Create an extension, adopt an object into it, open and read its module in that extension, and save.
-- **Cache in the usage history.** Cache read and write tokens for every hour and model — so you can see what the price is made of.
-- **Extensions without surprises.** Same-named objects in the configuration and an extension, someone else's or a disabled extension, cancelling and conflicts when adopting.
+- **Proxy connections.** Use system settings, disable the system proxy or configure your own.
+- **Settings by section.** Left-hand tabs instead of an ever-growing parameter list.
+
+## After That
+
+- **Reuse the visible object.** Skip unnecessary search when the exact row is already available and investigate inconsistent search application in the remaining routes.
+- **Resume at the required step.** Atomic client actions for the server workflow: reuse successful previous results without reopening surfaces or rereading a module after a successful save.
+- **Remaining extension cases.** The complete source, property and attribute-type matrix, including the unfinished attribute-selection route.
 
 ## Later
 
+- **Extension commands for the AI.** Source selection, extension actions and check results in the chat after the server update.
 - **The full cycle without you.** The model edits a module, checks it with the platform, reads the Messages panel, fixes the errors and saves the module.
 - **The model knows where you are working.** It sees the procedure under the cursor, keeps a sandbox for its infobase and remembers plans from other dialogs about that infobase.
 - **The right part of the configuration in view.** Find objects by pattern, see the attributes and tabular sections with their properties, and the forms; open the object, manager or form module directly.
