@@ -1,5 +1,24 @@
 # What's new
 
+## 0.36.0 — 05.11.2026
+
+- **Edit extensions from the chat.** The AI opens an extension module, edits it, checks it with the platform and saves it. A save is confirmed only by 1C's answer; a module with errors is not saved, and you see the error text.
+- **Shorter way to an object.** An object visible in the tree is used right away, without a search. "Save" and borrowing no longer make extra checks or wait for nothing.
+- **The Designer stays out of the way.** A minimized Designer is minimized again after an operation. A closed main configuration is opened by the operation itself, and a failed read no longer leaves the Designer "busy".
+- **Writing code on 1C 8.3.27.** Editing a module on this platform version no longer breaks the work. If the pasted text does not match the expected one, the edit is rolled back automatically and your clipboard is restored.
+- **All attributes.** The attribute list is read in full, not only its visible rows. An attribute of an open but covered object can be read too.
+- **More reliable with extensions.** Borrowing into an extension that already has many objects is confirmed correctly. An extension tree left over from a previous Designer session no longer breaks reading.
+- **Clear chat cards.** A tool card shows a short note about what happened, without instructions for the AI. Right-click to copy its text.
+
+## 0.35.0 — 04.11.2026
+
+- **Proxy.** On the Key tab of the settings you can use the Windows system proxy, connect directly, or set your own proxy with a login and password. It applies immediately, without a restart; "Check" names a clear reason when there is no connection.
+- **Tabbed settings.** Key, Billing, AI settings, Markers, General, About and Feedback are listed on the left, as in the Assistant.
+- **Billing.** Balance, subscription and its end date, daily and weekly remainders, the key's share and the corporate key mark, with top-up and pricing links — all in one place.
+- **No sign-in window.** The app opens the main window right away; without a key the settings open on top of it, so you can set up a proxy before entering the key.
+- **Themed dialog title bars.** In the dark theme dialogs no longer open with a white title bar on Windows 10, Windows Server or over Remote Desktop.
+- **Clearer refusals.** A deactivated account or organization, a model not on your plan, and a request rejected by the content policy each get their own message. Models outside your plan are shown locked in the list and are never picked automatically.
+
 ## 0.34.1 — 04.11.2026
 
 - **Maintenance release.** A new delivery of the accepted 0.34.0 improvements, without changing configurator behavior.

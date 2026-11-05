@@ -2,18 +2,11 @@
 
 ## Next
 
-- **Proxy connections.** Use system settings, disable the system proxy or configure your own.
-- **Settings by section.** Left-hand tabs instead of an ever-growing parameter list.
-
-## After That
-
-- **Reuse the visible object.** Skip unnecessary search when the exact row is already available and investigate inconsistent search application in the remaining routes.
-- **Resume at the required step.** Atomic client actions for the server workflow: reuse successful previous results without reopening surfaces or rereading a module after a successful save.
-- **Remaining extension cases.** The complete source, property and attribute-type matrix, including the unfinished attribute-selection route.
+- **Auto-update and "What's new".** A new version installs with an «Update» button, and the list of changes comes from the server.
+- **Remaining extension cases.** All three extension purposes, objects with matching names, the full matrix of attribute properties and types; the AI sees the list of the database's extensions and reports the borrowing result clearly.
 
 ## Later
 
-- **Extension commands for the AI.** Source selection, extension actions and check results in the chat after the server update.
 - **The full cycle without you.** The model edits a module, checks it with the platform, reads the Messages panel, fixes the errors and saves the module.
 - **The model knows where you are working.** It sees the procedure under the cursor, keeps a sandbox for its infobase and remembers plans from other dialogs about that infobase.
 - **The right part of the configuration in view.** Find objects by pattern, see the attributes and tabular sections with their properties, and the forms; open the object, manager or form module directly.
@@ -25,6 +18,6 @@
 - **The task board is a plan, not a list.** A task opens into its steps, a branch collapses, and the task status is derived from its steps.
 - **Answers appear as they are generated** — including when the model is working with tools.
 - **Subagents.** The model hands a step of the task to a subagent and continues with its result; you can see who is working on what and what it costs.
-- **Installer and auto-update.** Installs on a clean Windows 11, new versions come with an «Update» button.
+- **Installer.** Installs on a clean Windows 11 with a check that everything works.
 - **Reliability.** Automatic checks for everything that could damage a module, and an application log for sorting out problems.
 - **Nothing extra.** No debug tabs; the key is remembered only when «Remember key» is checked.
