@@ -1,5 +1,12 @@
 # What's new
 
+## 0.37.0 — 06.11.2026
+
+- **Installer.** You can now install the app from an MSI file: for yourself without administrator rights, or for all users of the computer, for example on a terminal server. A shortcut appears in the Start menu. The ZIP without installation is still available.
+- **Updates from the app.** When a new version comes out, an "Update to …" button appears in the title bar. The app downloads the update, checks the file, installs it and restarts — your dialogs and settings are kept.
+- **Update tab.** The settings show the version and how the app is installed; you can check for an update manually and read what is new in the next version.
+- **Copyable settings texts.** Messages and statuses in the settings can be selected with the mouse and copied.
+
 ## 0.36.0 — 05.11.2026
 
 - **Edit extensions from the chat.** The AI opens an extension module, edits it, checks it with the platform and saves it. A save is confirmed only by 1C's answer; a module with errors is not saved, and you see the error text.
