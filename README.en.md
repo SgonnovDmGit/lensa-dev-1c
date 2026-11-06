@@ -6,9 +6,9 @@
 
 # LenSa Dev 1C
 
-A Windows app in which an AI model works as an **operator of the 1C Configurator**: it sees open
-windows, reads modules, edits code and checks it with the platform's own module check — not by
-copy-pasting through a chat, but by itself, in your Configurator.
+**Vibe coding in 1C**: an AI agent works inside the Configurator — it sees open windows, reads
+modules, edits code and checks it with the platform's own module check, instead of just advising
+in a chat or working through XML dumps.
 
 [Русская версия](README.md)
 
