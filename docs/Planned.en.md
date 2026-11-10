@@ -2,8 +2,8 @@
 
 ## Next
 
-- **A new attribute, saving and applying.** The AI creates an attribute of a catalog or document with a simple type — string, number, date, boolean — saves the changed object and, when you ask, applies the changes to the infobase. It sees the list of the infobase's extensions.
-- **Remaining extension cases.** All three extension purposes, objects with matching names, the full matrix of attribute properties and types; a clear borrowing result.
+- **A new attribute, saving and applying.** The AI creates an attribute of a catalog or document with a simple type — string, number, date, boolean — saves the changed object and, when you ask, applies the changes to the infobase.
+- **Extensions in full.** The AI sees the list of the infobase's extensions, reads an extension's properties — synonym, prefix, purpose, whether it is active — and, when you ask, changes the purpose or deletes the extension.
 
 ## Later
 
