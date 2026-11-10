@@ -1,5 +1,13 @@
 # What's new
 
+## 0.38.0 — 10.11.2026
+
+- **Extension purpose.** A new extension can get a purpose — «Исправление» (correction), «Адаптация» (adaptation) or «Дополнение» (addition), as 1C names them — in the "1C extensions" window or by asking the AI. The AI names the purpose it read back from the Designer. If an extension with that name already exists with another purpose, it creates nothing and explains why.
+- **More reliable borrowing from the chat.** An object is borrowed into exactly the extension you named, and a successful borrow no longer looks like an error.
+- **Disabled extensions.** An extension with "Active" cleared can be borrowed into and edited like any other.
+- **The tree on 1C 8.3.27.** Searching the configuration tree and objects at the edge of the list no longer break the AI's work.
+- **Clearer chat cards.** Extension commands show a title in the interface language instead of an internal name, with no technical text.
+
 ## 0.37.0 — 06.11.2026
 
 - **Installer.** You can now install the app from an MSI file: for yourself without administrator rights, or for all users of the computer, for example on a terminal server. A shortcut appears in the Start menu. The ZIP without installation is still available.
