@@ -1,5 +1,15 @@
 # What's new
 
+## 0.39.0 — 12.11.2026
+
+- **Answer cost from the server.** The "i" card and its tooltip show the cost of the whole answer as the server counted it, including tool continuations. An answer covered by a subscription says "By subscription"; a mixed one shows the subscription and the extra coins.
+- **Subscription in the header.** The subscription name, linking to your account, and what is left of the daily and weekly quota; coins next to it if "Always show coins" is on. With free coins only there is a "Top up" button. When coins run short you see how many you have and how many are needed, and a reminder comes when only a few answers' worth is left.
+- **Question presets.** A cloud button in the input field opens ready-made questions; the chosen one goes into your draft, and you send it.
+- **See what the server is doing.** During an answer the chat shows lines for server tools — for example, which skill the AI has loaded.
+- **"Interrupt" no longer breaks the dialog.** Interrupting while a tool is running cancels the turn on the server too, and the next message is answered as usual. While the previous turn is finishing, the app waits for it instead of showing an error.
+- **"What's new" from the server.** Help shows the notes of every release from the server, and the built-in ones offline. With the English interface the update window shows the English text.
+- **Installer in Russian.** The app is called «Линза Разработчик 1С» in the setup wizard, in Apps, in the Start menu and on the shortcut; the publisher is «Лаборатория цифровой механики»; the wizard has its own pictures.
+
 ## 0.38.0 — 10.11.2026
 
 - **Extension purpose.** A new extension can get a purpose — «Исправление» (correction), «Адаптация» (adaptation) or «Дополнение» (addition), as 1C names them — in the "1C extensions" window or by asking the AI. The AI names the purpose it read back from the Designer. If an extension with that name already exists with another purpose, it creates nothing and explains why.

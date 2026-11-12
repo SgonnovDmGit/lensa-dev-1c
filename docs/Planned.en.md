@@ -13,8 +13,7 @@
 - **Creating metadata and working in extensions.** The model creates attributes of complex types, tabular sections, objects and forms, and does the same inside a configuration extension — for example, an extension that blocks shipment when a debt is overdue. It sets breakpoints and starts debugging.
 - **What the Query Console and 1C Assistant can do.** Metadata of the live infobase, queries, data, the event log, DCS, building external reports and data processors. A query from a module goes to the Query Console, and the result comes back to the dialog.
 - **A sandbox close to the configurator.** Autocompletion, the syntax assistant, code templates, formatting, query language and DCS modes.
-- **Everything the server can do.** Web search, search in 1C help and development standards, files from the model and from you, common questions; during a turn you can see what the server is doing.
-- **Spending in view.** The cost of every answer and a reminder to top up while you only have free coins.
+- **Everything the server can do.** Web search, search in 1C help and development standards, files from the model and from you.
 - **The task board is a plan, not a list.** A task opens into its steps, a branch collapses, and the task status is derived from its steps.
 - **Answers appear as they are generated** — including when the model is working with tools.
 - **Subagents.** The model hands a step of the task to a subagent and continues with its result; you can see who is working on what and what it costs.
