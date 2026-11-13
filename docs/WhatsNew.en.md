@@ -1,5 +1,14 @@
 # What's new
 
+## 0.40.0 — 13.11.2026
+
+- **The AI sees the infobase's extensions.** Asked "which extensions are there?", it lists them with their purpose and marks the disabled ones — no need to give it a name any more.
+- **Extension properties.** The AI reads the synonym, name prefix, purpose and the "Active" flag, and says plainly where a value is empty and where it could not be read.
+- **Long lists in full.** An object with a hundred attributes or more is read page by page and listed completely, not cut off at the hundredth.
+- **A disabled extension stands out.** When opening a module in an extension with "Active" cleared, the AI warns that the infobase does not apply its code.
+- **Your tree search stays.** If the configuration tree search field held your text, it comes back after the AI's turn with the same filter; the AI clears its own search after itself.
+- **The header at startup.** "Connected" appears at once and the "Update to …" button a second after connecting; in the dark theme its text is white.
+
 ## 0.39.0 — 12.11.2026
 
 - **Answer cost from the server.** The "i" card and its tooltip show the cost of the whole answer as the server counted it, including tool continuations. An answer covered by a subscription says "By subscription"; a mixed one shows the subscription and the extra coins.

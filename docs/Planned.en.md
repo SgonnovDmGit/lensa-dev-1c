@@ -3,7 +3,8 @@
 ## Next
 
 - **A new attribute, saving and applying.** The AI creates an attribute of a catalog or document with a simple type — string, number, date, boolean — saves the changed object and, when you ask, applies the changes to the infobase.
-- **Extensions in full.** The AI sees the list of the infobase's extensions, reads an extension's properties — synonym, prefix, purpose, whether it is active — and, when you ask, changes the purpose or deletes the extension.
+- **Files both ways.** The AI hands over finished files, and you attach your own file to a question.
+- **An extension's purpose and removal.** When you ask, the AI changes an extension's purpose or deletes it.
 
 ## Later
 
@@ -13,7 +14,7 @@
 - **Creating metadata and working in extensions.** The model creates attributes of complex types, tabular sections, objects and forms, and does the same inside a configuration extension — for example, an extension that blocks shipment when a debt is overdue. It sets breakpoints and starts debugging.
 - **What the Query Console and 1C Assistant can do.** Metadata of the live infobase, queries, data, the event log, DCS, building external reports and data processors. A query from a module goes to the Query Console, and the result comes back to the dialog.
 - **A sandbox close to the configurator.** Autocompletion, the syntax assistant, code templates, formatting, query language and DCS modes.
-- **Everything the server can do.** Web search, search in 1C help and development standards, files from the model and from you.
+- **Everything the server can do.** Web search, search in 1C help and development standards.
 - **The task board is a plan, not a list.** A task opens into its steps, a branch collapses, and the task status is derived from its steps.
 - **Answers appear as they are generated** — including when the model is working with tools.
 - **Subagents.** The model hands a step of the task to a subagent and continues with its result; you can see who is working on what and what it costs.
