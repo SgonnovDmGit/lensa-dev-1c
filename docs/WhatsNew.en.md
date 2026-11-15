@@ -1,5 +1,15 @@
 # What's new
 
+## 0.41.0 — 15.11.2026
+
+- **Files from the AI.** Finished files of an answer are listed at its end: "↓" saves a file, and once saved it can be opened or shown in its folder. The app checks the file against the server before writing it to disk.
+- **Your file with a question.** The "+" button, drag and drop or Ctrl+V: text and 1C code, PDF, Word, Excel, PNG and JPEG images. Tiles show what has been uploaded and, if the chosen model cannot read a file, why — before you send.
+- **Sent files in the dialog.** Above your message are tiles of its files with image thumbnails; an image opens in its own window.
+- **The task board no longer answers for you.** Ticking the "Accepted" column does not start a turn by itself — the ticks go with your next message.
+- **A clear start of the update download.** While the server prepares the file, the window says "Preparing download…" instead of sitting at 0%.
+- **Scrollbars match the theme.** In the dark theme the scrollbar is dark and thin.
+- **Fixed.** The AI no longer calls a module with code empty in the 8.3 Designer. If the "1C extensions" window does not close, the reason is shown and closing the app again works.
+
 ## 0.40.0 — 13.11.2026
 
 - **The AI sees the infobase's extensions.** Asked "which extensions are there?", it lists them with their purpose and marks the disabled ones — no need to give it a name any more.
