@@ -3,7 +3,6 @@
 ## Next
 
 - **A new attribute, saving and applying.** The AI creates an attribute of a catalog or document with a simple type — string, number, date, boolean — saves the changed object and, when you ask, applies the changes to the infobase.
-- **Files both ways.** The AI hands over finished files, and you attach your own file to a question.
 - **An extension's purpose and removal.** When you ask, the AI changes an extension's purpose or deletes it.
 
 ## Later
