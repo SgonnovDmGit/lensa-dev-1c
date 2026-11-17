@@ -1,5 +1,14 @@
 # What's new
 
+## 0.42.0 — 16.11.2026
+
+- **The AI adds an attribute.** Ask "add a Branch code attribute, string 20, to the Warehouses catalog" — the AI creates an attribute of a simple type (string, number, date, boolean) in the Designer and checks which type it got. If something goes wrong, it removes the unfinished attribute.
+- **Saving and applying to the infobase.** When you ask, the AI saves the configuration and applies the changes to the infobase. It warns about someone else's unsaved edits, and if the restructuring touches more than its own additions, it applies nothing and shows the list of changes.
+- **An extension's purpose.** The AI changes an extension's purpose — adaptation, patch or add-on — and names the result.
+- **Search in 1C help and on the web.** The AI looks for answers in the 1C:Enterprise 8 language help and on the web; the dialog shows what it is searching for and the list of sources.
+- **Links in answers.** Links to sources are clickable and open in the browser.
+- **Fixed.** The Designer window list no longer fails after two modules are opened. On a configuration with a synonym the AI finds objects in the tree.
+
 ## 0.41.0 — 15.11.2026
 
 - **Files from the AI.** Finished files of an answer are listed at its end: "↓" saves a file, and once saved it can be opened or shown in its folder. The app checks the file against the server before writing it to disk.
