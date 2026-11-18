@@ -1,5 +1,12 @@
 # What's new
 
+## 0.43.0 — 18.11.2026
+
+- **Answers appear as they are generated.** Text fades in while the AI writes it — also when it is working in the Designer. While you are at the bottom of the dialog, the feed follows the answer. If the connection drops, the app finishes reading the answer by itself; "Stop" keeps the text already shown.
+- **Long turns are not cut off.** An AI step after work in the Designer is no longer limited to five and a half minutes, and context compaction waits for the server in the background.
+- **Objects with common names.** In a large configuration the AI finds an object even when attributes of other objects carry its name — for example, "Номенклатура" or "ЗаказКлиента".
+- **Fixed.** After a failed read the AI no longer restores its own tree search text as yours.
+
 ## 0.42.0 — 16.11.2026
 
 - **The AI adds an attribute.** Ask "add a Branch code attribute, string 20, to the Warehouses catalog" — the AI creates an attribute of a simple type (string, number, date, boolean) in the Designer and checks which type it got. If something goes wrong, it removes the unfinished attribute.
