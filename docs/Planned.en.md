@@ -2,9 +2,8 @@
 
 ## Next
 
-- **Answers appear as they are generated** — including when the model is working with tools.
-- **Subagents.** The model hands a step of the task to a subagent and continues with its result; you can see who is working on what and what it costs.
-- **Objects with common names.** The AI finds an object in the tree of a large configuration even when attributes of other objects carry the same name — for example, "Номенклатура".
+- **Manager and form modules.** The AI opens an object's manager module and the module of a given form, reads the list of forms, the main form and nested tabular sections.
+- **See what the AI is doing while it thinks.** The model name, the stage and a turn timer; a search in the help or on the web shows at once, not with the finished answer.
 
 ## Later
 
@@ -16,6 +15,7 @@
 - **A sandbox close to the configurator.** Autocompletion, the syntax assistant, code templates, formatting, query language and DCS modes.
 - **Development standards.** Search in the 1C development standards.
 - **The task board is a plan, not a list.** A task opens into its steps, a branch collapses, and the task status is derived from its steps.
+- **Subagents.** The model hands a step of the task to a subagent and continues with its result; you can see who is working on what and what it costs.
 - **Removing an extension.** When you ask and confirm, the AI deletes an extension.
 - **Reliability.** Automatic checks for everything that could damage a module, and an application log for sorting out problems.
 - **Nothing extra.** No debug tabs; the key is remembered only when «Remember key» is checked.
