@@ -2,7 +2,6 @@
 
 ## Next
 
-- **An attribute and its filling in an extension, end to end.** The AI adds an attribute to a borrowed object of an extension, writes the handler that fills it in the object module, checks and saves the extension. It goes straight to an object already on screen, and while the configurator is busy it waits instead of giving up on a timer.
 - **Manager module, tabular sections, and see what the AI is doing.** The AI opens the manager module and reads the attributes of a given tabular section; while it thinks, you see the model name, the stage and a turn timer.
 
 ## Later

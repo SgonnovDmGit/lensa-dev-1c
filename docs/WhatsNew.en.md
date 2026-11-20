@@ -1,5 +1,13 @@
 # What's new
 
+## 0.45.0 — 20.11.2026
+
+- **An attribute and its filling in an extension.** Ask "add a posting date attribute to the customer order in the extension and fill it on posting" — the AI borrows the document into the extension, adds the attribute, writes a before-write handler in the extension's object module, checks the module and saves the extension.
+- **It waits instead of giving up.** While the Designer is busy (opening a big configuration, building the tree), the AI waits for it instead of cutting the action off on a timer. A closed configuration is opened by the program itself.
+- **An honest "no such object".** If an object does not exist, the AI says so and offers similar names ("Similar: ЗаказКлиента, ЗаказНаСборку…"); if the object is not borrowed into the extension, it says that too. After such an answer the Designer is free for the next actions.
+- **Fixed.** Creating an extension on a big configuration. Adding an attribute to an object with a long attribute list. Working again with an object that is already open. The object module opens even when the tree command did not work.
+- **Not yet.** Reading the properties of one attribute in an extension (name, type) — in the next version.
+
 ## 0.44.1 — 20.11.2026
 
 - **Fixed.** The program no longer closes after an AI answer that has inline code. If the program does crash, the cause is kept in a file in `%LOCALAPPDATA%\LenSaDev1C\logs` (its name starts with `crash-`) — send it to us.
