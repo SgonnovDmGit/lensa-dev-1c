@@ -2,7 +2,7 @@
 
 ## Next
 
-- **Manager and form modules.** The AI opens an object's manager module and the module of a given form, reads the list of forms, the main form and nested tabular sections.
+- **Manager module and tabular sections.** The AI opens the manager module of an object and reads the attributes of a given tabular section; main forms of every kind and group forms are named exactly.
 - **See what the AI is doing while it thinks.** The model name, the stage and a turn timer; a search in the help or on the web shows at once, not with the finished answer.
 
 ## Later
