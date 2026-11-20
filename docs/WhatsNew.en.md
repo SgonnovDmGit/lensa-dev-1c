@@ -1,5 +1,12 @@
 # What's new
 
+## 0.44.0 — 19.11.2026
+
+- **Object forms.** Ask "open the item form of Номенклатура" or "open its form module" — the AI opens the form in the Designer and switches it to its module. It sees which forms an object has and which of them is the main one.
+- **Forms in extensions.** The AI borrows a form into an extension, opens and edits the extension's form module and loads it back.
+- **Fixed.** Reading an object whose editor is already open no longer fails. Adding an attribute no longer leaves an empty "Реквизит1" row and works with an extension tree open alongside. Loading an extension from files runs to the end.
+- **Not yet.** Adding an attribute to an object with a long attribute list (when the list does not fit in the tree window) is not reliable yet: the AI reports that the outcome is unknown — check the object in the Designer.
+
 ## 0.43.0 — 18.11.2026
 
 - **Answers appear as they are generated.** Text fades in while the AI writes it — also when it is working in the Designer. While you are at the bottom of the dialog, the feed follows the answer. If the connection drops, the app finishes reading the answer by itself; "Stop" keeps the text already shown.
