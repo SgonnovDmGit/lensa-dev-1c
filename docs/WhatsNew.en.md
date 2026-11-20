@@ -1,5 +1,9 @@
 # What's new
 
+## 0.44.1 — 20.11.2026
+
+- **Fixed.** The program no longer closes after an AI answer that has inline code. If the program does crash, the cause is kept in a file in `%LOCALAPPDATA%\LenSaDev1C\logs` (its name starts with `crash-`) — send it to us.
+
 ## 0.44.0 — 19.11.2026
 
 - **Object forms.** Ask "open the item form of Номенклатура" or "open its form module" — the AI opens the form in the Designer and switches it to its module. It sees which forms an object has and which of them is the main one.

@@ -2,10 +2,12 @@
 
 ## Next
 
-- **Manager module and tabular sections.** The AI opens the manager module of an object and reads the attributes of a given tabular section; main forms of every kind and group forms are named exactly.
-- **See what the AI is doing while it thinks.** The model name, the stage and a turn timer; a search in the help or on the web shows at once, not with the finished answer.
+- **An attribute and its filling in an extension, end to end.** The AI adds an attribute to a borrowed object of an extension, writes the handler that fills it in the object module, checks and saves the extension. It goes straight to an object already on screen, and while the configurator is busy it waits instead of giving up on a timer.
+- **Manager module, tabular sections, and see what the AI is doing.** The AI opens the manager module and reads the attributes of a given tabular section; while it thinks, you see the model name, the stage and a turn timer.
 
 ## Later
+
+- **Search shows at once; main forms of every kind.** A search in the help or on the web shows in the answer at once, not with the finished answer; main forms of every kind and group forms are named exactly — once the server supports it.
 
 - **The full cycle without you.** The model edits a module, checks it with the platform, reads the Messages panel, fixes the errors and saves the module.
 - **The model knows where you are working.** It sees the procedure under the cursor, keeps a sandbox for its infobase and remembers plans from other dialogs about that infobase.
