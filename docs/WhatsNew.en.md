@@ -1,5 +1,11 @@
 # What's new
 
+## 0.46.1 — 24.11.2026
+
+- **Several Designer actions at once.** When the AI asks the Designer to find a catalog and a document at the same time, the second action waits for the first instead of failing with "Designer is busy".
+- **The Designer window list on platform 8.3.27** no longer fails as a whole when a Designer window changes while it is read.
+- **Reasoning in its place.** When the AI thinks, searches the help, thinks again and searches again, both "Reasoning" blocks show during the answer — the same as after reloading the conversation.
+
 ## 0.46.0 — 23.11.2026
 
 - **See what the AI is doing.** While a turn runs, a line under the answer shows the model name, the stage ("Thinking", "Analyzing", "Working in Designer") and a turn timer. A search in the 1C help or on the web shows in the answer at once, not with the finished answer.
