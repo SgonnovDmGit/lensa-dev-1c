@@ -1,5 +1,14 @@
 # What's new
 
+## 0.46.0 — 23.11.2026
+
+- **See what the AI is doing.** While a turn runs, a line under the answer shows the model name, the stage ("Thinking", "Analyzing", "Working in Designer") and a turn timer. A search in the 1C help or on the web shows in the answer at once, not with the finished answer.
+- **Manager module and tabular sections.** Ask "open the manager module of the Номенклатура catalog" or "which attributes does the Товары tabular section of the customer order have" — the AI opens the module and lists the attributes. In an extension it reads the properties of one attribute: name, type, synonym.
+- **The Designer on request.** Say "open the Designer of the Бухгалтерия infobase" — the AI finds the infobase in the 1C list, starts the Designer and continues working in it.
+- **The AI knows which module you have open** — even when 1C does not report the cursor line.
+- **Typical questions during an answer.** The typical questions button works while the AI is answering: the question goes into the input box, and you send it yourself.
+- **Fixed.** The form module opens at 125 % display scale. If the infobase has no objects of the requested kind, the AI says so instead of answering "Operation aborted".
+
 ## 0.45.0 — 20.11.2026
 
 - **An attribute and its filling in an extension.** Ask "add a posting date attribute to the customer order in the extension and fill it on posting" — the AI borrows the document into the extension, adds the attribute, writes a before-write handler in the extension's object module, checks the module and saves the extension.
