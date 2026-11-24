@@ -2,11 +2,9 @@
 
 ## Next
 
-- **Manager module, tabular sections, and see what the AI is doing.** The AI opens the manager module and reads the attributes of a given tabular section; while it thinks, you see the model name, the stage and a turn timer.
+- **A folder of the AI's own for every configuration.** Queries, exports and drafts the AI writes are kept in a permanent folder of that infobase, and you can view them in the program. The AI moves a query out of 1C text or a module into a separate file, ready for the Query Console.
 
 ## Later
-
-- **Search shows at once; main forms of every kind.** A search in the help or on the web shows in the answer at once, not with the finished answer; main forms of every kind and group forms are named exactly — once the server supports it.
 
 - **The full cycle without you.** The model edits a module, checks it with the platform, reads the Messages panel, fixes the errors and saves the module.
 - **The model knows where you are working.** It sees the procedure under the cursor, keeps a sandbox for its infobase and remembers plans from other dialogs about that infobase.
