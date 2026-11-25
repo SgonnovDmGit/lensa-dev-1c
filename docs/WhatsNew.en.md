@@ -1,5 +1,12 @@
 # What's new
 
+## 0.47.0 — 25.11.2026
+
+- **An AI folder for each base.** Each Designer base gets its own folder in Documents — "Линза Разработчик 1С\Файлы ИИ". It stays after the Designer restarts. The sidebar shows an "AI FILES" block with subfolders under the open modules; its icon opens the folder in Explorer.
+- **View a file in the app.** Click a file to see it highlighted in the code column.
+- **A query in a file for the Query Console.** A `.q1cs` file opens as the query text with query highlighting and an info line: name, parameters, where it came from. The "File XML" switch shows the file as it is; a button copies the query text.
+- **The failure reason stays.** The card of a failed action keeps its reason line after the conversation reloads.
+
 ## 0.46.1 — 24.11.2026
 
 - **Several Designer actions at once.** When the AI asks the Designer to find a catalog and a document at the same time, the second action waits for the first instead of failing with "Designer is busy".
