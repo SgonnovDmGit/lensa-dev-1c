@@ -1,5 +1,21 @@
 # What's new
 
+## 0.49.0 — 26.11.2026
+
+- **A sandbox for every base.** The selected base's block starts with "Sandbox" and its line count. Each base keeps its own sandbox code and dialogs, also after the Designer restarts. The common sandbox stays at the top of the sidebar.
+- **Move code into the right base.** From a base sandbox, "→ to <base>" puts the code into the active Designer window of that base. If the Designer is closed, the button tells you to open it.
+- **The common sandbox asks where.** "→ to base ▾" lists the open bases — pick the one to move the code into.
+
+## 0.48.0 — 26.11.2026
+
+- **Add to a running answer.** The input box works while the AI answers: "↑" sends a follow-up into the current turn, "■" stops it. The follow-up waits "queued" — you can cancel it — and goes out as soon as the AI finishes its Designer action. If it misses the turn, it stays as a "next turn" line above the input box.
+- **A new model picker.** A table: model, input and output price per 1M tokens, cache prices under them. The reasoning scale with labels follows the model. If a model leaves the catalog, a model of the same family is picked.
+- **Project files.** The sidebar block is now "PROJECT FILES", the folder is "Documents\Линза Разработчик 1С\Project_files"; existing files moved on their own. Add files with "+" or drag them from Explorer, delete them with a right-click on the row. A file from an AI answer goes to the project with "⇲ to project".
+- **Several queries in one file.** When a `.q1cs` file holds several queries, their list sits above the text — pick the one you need.
+- **A wider sidebar.** Drag the sidebar edge with the mouse; a double-click restores the usual width.
+- **Restructuring without asking.** In "Settings → AI settings" you can let the AI update the infobase without the restructuring window. Off by default.
+- **Code in the dark theme** uses the query colours: keywords red, names yellow.
+
 ## 0.47.0 — 25.11.2026
 
 - **An AI folder for each base.** Each Designer base gets its own folder in Documents — "Линза Разработчик 1С\Файлы ИИ". It stays after the Designer restarts. The sidebar shows an "AI FILES" block with subfolders under the open modules; its icon opens the folder in Explorer.
